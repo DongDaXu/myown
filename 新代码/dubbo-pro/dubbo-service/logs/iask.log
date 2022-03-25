@@ -1,0 +1,97 @@
+2022-03-16 16:40:13  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:270)  Root WebApplicationContext: initialization started
+2022-03-16 16:40:14    using logger: org.apache.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2022-03-16 16:40:14  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor.resolveBeanNameGenerator(ServiceAnnotationBeanPostProcessor.java:207)   [DUBBO] BeanNameGenerator bean can't be found in BeanFactory with name [org.springframework.context.annotation.internalConfigurationBeanNameGenerator], dubbo version: 2.7.4.1, current host: 192.168.1.111
+2022-03-16 16:40:14  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor.resolveBeanNameGenerator(ServiceAnnotationBeanPostProcessor.java:209)   [DUBBO] BeanNameGenerator will be a instance of org.springframework.context.annotation.AnnotationBeanNameGenerator , it maybe a potential problem on bean name generation., dubbo version: 2.7.4.1, current host: 192.168.1.111
+2022-03-16 16:40:14  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor.registerServiceBeans(ServiceAnnotationBeanPostProcessor.java:172)   [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.dong.service.impl], dubbo version: 2.7.4.1, current host: 192.168.1.111
+2022-03-16 16:40:14  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)  Root WebApplicationContext initialized in 288 ms
+2022-03-16 16:41:01  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:270)  Root WebApplicationContext: initialization started
+2022-03-16 16:41:01    using logger: org.apache.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2022-03-16 16:41:02  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor.resolveBeanNameGenerator(ServiceAnnotationBeanPostProcessor.java:207)   [DUBBO] BeanNameGenerator bean can't be found in BeanFactory with name [org.springframework.context.annotation.internalConfigurationBeanNameGenerator], dubbo version: 2.7.4.1, current host: 192.168.1.111
+2022-03-16 16:41:02  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor.resolveBeanNameGenerator(ServiceAnnotationBeanPostProcessor.java:209)   [DUBBO] BeanNameGenerator will be a instance of org.springframework.context.annotation.AnnotationBeanNameGenerator , it maybe a potential problem on bean name generation., dubbo version: 2.7.4.1, current host: 192.168.1.111
+2022-03-16 16:41:02  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor.registerServiceBean(ServiceAnnotationBeanPostProcessor.java:287)   [DUBBO] The BeanDefinition[Root bean: class [org.apache.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] of ServiceBean has been registered with name : ServiceBean:com.dong.service.UserService, dubbo version: 2.7.4.1, current host: 192.168.1.111
+2022-03-16 16:41:02  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor.registerServiceBeans(ServiceAnnotationBeanPostProcessor.java:164)   [DUBBO] 1 annotated Dubbo's @Service Components { [Bean definition with name 'userServiceImpl': Generic bean: class [com.dong.service.impl.UserServiceImpl]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\新代码\dubbo-pro\dubbo-service\dubbo-service01\target\classes\com\dong\service\impl\UserServiceImpl.class]] } were scanned under package[com.dong.service.impl], dubbo version: 2.7.4.1, current host: 192.168.1.111
+2022-03-16 16:41:02  org.apache.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:112)   [DUBBO] The service ready on spring started. service: com.dong.service.UserService, dubbo version: 2.7.4.1, current host: 192.168.1.111
+2022-03-16 16:41:02  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:zookeeper.version=3.5.3-beta-8ce24f9e675cbefffb8f21a47e06b42864475a60, built on 04/03/2017 16:19 GMT
+2022-03-16 16:41:02  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:host.name=LAPTOP-JF8RM7HA
+2022-03-16 16:41:02  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:java.version=1.8.0_112
+2022-03-16 16:41:02  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:java.vendor=Oracle Corporation
+2022-03-16 16:41:02  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:java.home=C:\Program Files\Java\jdk1.8.0_112\jre
+2022-03-16 16:41:02  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:java.class.path=D:\apache-maven-3.8.4\boot\plexus-classworlds-2.6.0.jar;D:\apache-maven-3.8.4\boot\plexus-classworlds.license;D:\Idea\IntelliJ IDEA 2020.2.2\lib\idea_rt.jar
+2022-03-16 16:41:02  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_112\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\VM\bin\;D:\app\oracle\product\11.2.0\dbhome_1\bin;D:\Code_01\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk1.8.0_112\bin;C:\Program Files\Java\jdk-17.0.1\bin;C:\Program Files\Java\jdk1.8.0_112\jre\bin;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\MySQL\bin;D:\apache-tomcat-9.0.56\bin;D:\apache-maven-3.8.4\bin;C:\python\Scripts\;C:\python\;C:\Users\董晓轩\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm 2019.3.3\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2021.1\bin;;E:\QQGameTempest\Hall.57711\;.
+2022-03-16 16:41:02  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:java.io.tmpdir=C:\Users\董晓轩\AppData\Local\Temp\
+2022-03-16 16:41:02  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:java.compiler=<NA>
+2022-03-16 16:41:02  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:os.name=Windows 10
+2022-03-16 16:41:02  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:os.arch=amd64
+2022-03-16 16:41:02  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:os.version=10.0
+2022-03-16 16:41:02  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:user.name=董晓轩
+2022-03-16 16:41:02  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:user.home=C:\Users\董晓轩
+2022-03-16 16:41:02  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:user.dir=D:\新代码\dubbo-pro\dubbo-service\dubbo-service01
+2022-03-16 16:41:02  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:os.memory.free=436MB
+2022-03-16 16:41:02  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:os.memory.max=3506MB
+2022-03-16 16:41:02  org.apache.zookeeper.Environment.logEnv(Environment.java:109)  Client environment:os.memory.total=544MB
+2022-03-16 16:41:02  org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:284)  Starting
+2022-03-16 16:41:02  org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:865)  Initiating client connection, connectString=192.168.115.128:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@e4b85a6
+2022-03-16 16:41:02  org.apache.zookeeper.ClientCnxnSocket.initProperties(ClientCnxnSocket.java:236)  jute.maxbuffer value is 4194304 Bytes
+2022-03-16 16:41:02  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1113)  Opening socket connection to server 192.168.115.128/192.168.115.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2022-03-16 16:41:02  org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:326)  Default schema
+2022-03-16 16:41:05  org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:312)  Context initialization failed
+java.lang.IllegalStateException: zookeeper not connected
+	at org.apache.dubbo.remoting.zookeeper.curator.CuratorZookeeperClient.<init>(CuratorZookeeperClient.java:83)
+	at org.apache.dubbo.remoting.zookeeper.curator.CuratorZookeeperTransporter.createZookeeperClient(CuratorZookeeperTransporter.java:26)
+	at org.apache.dubbo.remoting.zookeeper.support.AbstractZookeeperTransporter.connect(AbstractZookeeperTransporter.java:68)
+	at org.apache.dubbo.remoting.zookeeper.ZookeeperTransporter$Adaptive.connect(ZookeeperTransporter$Adaptive.java)
+	at org.apache.dubbo.configcenter.support.zookeeper.ZookeeperDynamicConfiguration.<init>(ZookeeperDynamicConfiguration.java:62)
+	at org.apache.dubbo.configcenter.support.zookeeper.ZookeeperDynamicConfigurationFactory.createDynamicConfiguration(ZookeeperDynamicConfigurationFactory.java:37)
+	at org.apache.dubbo.configcenter.AbstractDynamicConfigurationFactory.getDynamicConfiguration(AbstractDynamicConfigurationFactory.java:33)
+	at org.apache.dubbo.config.AbstractInterfaceConfig.getDynamicConfiguration(AbstractInterfaceConfig.java:315)
+	at org.apache.dubbo.config.AbstractInterfaceConfig.prepareEnvironment(AbstractInterfaceConfig.java:290)
+	at org.apache.dubbo.config.AbstractInterfaceConfig.startConfigCenter(AbstractInterfaceConfig.java:280)
+	at org.apache.dubbo.config.AbstractInterfaceConfig.lambda$null$7(AbstractInterfaceConfig.java:636)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.apache.dubbo.config.AbstractInterfaceConfig.lambda$useRegistryForConfigIfNecessary$8(AbstractInterfaceConfig.java:620)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.apache.dubbo.config.AbstractInterfaceConfig.useRegistryForConfigIfNecessary(AbstractInterfaceConfig.java:618)
+	at org.apache.dubbo.config.AbstractInterfaceConfig.checkRegistry(AbstractInterfaceConfig.java:208)
+	at org.apache.dubbo.config.ServiceConfig.checkAndUpdateSubConfigs(ServiceConfig.java:303)
+	at org.apache.dubbo.config.ServiceConfig.export(ServiceConfig.java:370)
+	at org.apache.dubbo.config.spring.ServiceBean.export(ServiceBean.java:336)
+	at org.apache.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:114)
+	at org.apache.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:60)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:402)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:359)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:896)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:400)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:291)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalStateException: zookeeper not connected
+	at org.apache.dubbo.remoting.zookeeper.curator.CuratorZookeeperClient.<init>(CuratorZookeeperClient.java:80)
+	... 39 more
+2022-03-16 16:41:05  org.apache.dubbo.registry.support.AbstractRegistryFactory.destroyAll(AbstractRegistryFactory.java:68)   [DUBBO] Close all registries [], dubbo version: 2.7.4.1, current host: 192.168.1.111
+2022-03-16 16:41:05  org.apache.dubbo.config.spring.beans.factory.annotation.AnnotationInjectedBeanPostProcessor.destroy(AnnotationInjectedBeanPostProcessor.java:304)  class org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor was destroying!
+2022-03-16 16:41:05  org.apache.curator.framework.imps.CuratorFrameworkImpl.backgroundOperationsLoop(CuratorFrameworkImpl.java:924)  backgroundOperationsLoop exiting
+2022-03-16 16:41:23  org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)  Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:357)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
+2022-03-16 16:41:23  org.apache.zookeeper.server.ZooKeeperThread.handleException(ZooKeeperThread.java:55)  Exception occurred from thread localhost-startStop-1-SendThread(192.168.115.128:2181)
+java.lang.NoClassDefFoundError: org/apache/zookeeper/WatchedEvent
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1247)
+Caused by: java.lang.ClassNotFoundException: org.apache.zookeeper.WatchedEvent
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1702)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1547)
+	... 1 more

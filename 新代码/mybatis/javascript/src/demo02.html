@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div align="center">
+数字1<input type="text" id="num1" style="width: 100px"><br>
+数字2<input type="text" id="num2" style="width: 100px"><br>
+<input type="button" value="+" id="add" style="width: 50px">
+<input type="button" value="-" id="ji" style="width: 50px">
+<input type="button" value="X" id="cheng" style="width: 50px">
+<input type="button" value="÷" id="chu" style="width: 50px"><br>
+计算结果<input type="text" id="sum">
+</div>
+<script type="text/javascript">
+    document.getElementsByName()
+    var num1=document.getElementById("num1");
+    var num2=document.getElementById("num2");
+    var sum=document.getElementById("sum");
+    document.getElementById(`add`).onclick=function (){
+        sum.value=parseInt(num1.value)+parseInt(num2.value);
+    }
+    document.getElementById(`ji`).onclick=function (){
+        sum.value=num1.value-num2.value;
+    }
+    document.getElementById(`cheng`).onclick=function (){
+        sum.value=num1.value*num2.value;
+    }
+    document.getElementById(`chu`).onclick=function (){
+        sum.value=num1.value/num2.value;
+    }
+</script>
+</body>
+</html>

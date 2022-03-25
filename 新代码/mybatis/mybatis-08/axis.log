@@ -1,0 +1,123 @@
+2022-02-13 14:06:59,694 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2022-02-13 14:06:59,701 7      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-13 14:06:59,701 7      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-13 14:06:59,701 7      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-13 14:06:59,701 7      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-13 14:06:59,767 73     [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2022-02-13 14:06:59,921 227    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 306206744.
+2022-02-13 14:06:59,923 229    [           main] DEBUG ong.dao.UserMapper.getUserById  - ==>  Preparing: select * from user where id=?
+2022-02-13 14:06:59,945 251    [           main] DEBUG ong.dao.UserMapper.getUserById  - ==> Parameters: 1(Integer)
+2022-02-13 14:06:59,955 261    [           main] DEBUG ong.dao.UserMapper.getUserById  - <==      Total: 0
+2022-02-13 14:06:59,955 261    [           main] DEBUG ong.dao.UserMapper.getUserById  - ==>  Preparing: select * from user where id=?
+2022-02-13 14:06:59,956 262    [           main] DEBUG ong.dao.UserMapper.getUserById  - ==> Parameters: 2(Integer)
+2022-02-13 14:06:59,959 265    [           main] DEBUG ong.dao.UserMapper.getUserById  - <==      Total: 1
+2022-02-13 14:07:47,721 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2022-02-13 14:07:47,727 6      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-13 14:07:47,727 6      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-13 14:07:47,727 6      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-13 14:07:47,727 6      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-13 14:07:47,787 66     [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2022-02-13 14:07:47,930 209    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 306206744.
+2022-02-13 14:07:47,932 211    [           main] DEBUG ong.dao.UserMapper.getUserById  - ==>  Preparing: select * from user where id=?
+2022-02-13 14:07:47,952 231    [           main] DEBUG ong.dao.UserMapper.getUserById  - ==> Parameters: 1(Integer)
+2022-02-13 14:07:47,958 237    [           main] DEBUG ong.dao.UserMapper.getUserById  - <==      Total: 0
+2022-02-13 14:30:41,078 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2022-02-13 14:30:41,085 7      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-13 14:30:41,085 7      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-13 14:30:41,085 7      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-13 14:30:41,085 7      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-13 14:30:41,151 73     [           main] DEBUG        com.dong.dao.UserMapper  - Cache Hit Ratio [com.dong.dao.UserMapper]: 0.0
+2022-02-13 14:30:41,155 77     [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2022-02-13 14:30:41,305 227    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1669712678.
+2022-02-13 14:30:41,307 229    [           main] DEBUG ong.dao.UserMapper.getUserById  - ==>  Preparing: select * from user where id=?
+2022-02-13 14:30:41,327 249    [           main] DEBUG ong.dao.UserMapper.getUserById  - ==> Parameters: 1(Integer)
+2022-02-13 14:30:41,334 256    [           main] DEBUG ong.dao.UserMapper.getUserById  - <==      Total: 0
+2022-02-13 14:30:41,335 257    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6385cb26]
+2022-02-13 14:30:41,335 257    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1669712678 to pool.
+2022-02-13 14:30:41,335 257    [           main] DEBUG        com.dong.dao.UserMapper  - Cache Hit Ratio [com.dong.dao.UserMapper]: 0.5
+2022-02-13 14:31:21,634 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2022-02-13 14:31:21,640 6      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-13 14:31:21,640 6      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-13 14:31:21,640 6      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-13 14:31:21,640 6      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-13 14:31:21,703 69     [           main] DEBUG        com.dong.dao.UserMapper  - Cache Hit Ratio [com.dong.dao.UserMapper]: 0.0
+2022-02-13 14:31:21,706 72     [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2022-02-13 14:31:21,850 216    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1669712678.
+2022-02-13 14:31:21,853 219    [           main] DEBUG ong.dao.UserMapper.getUserById  - ==>  Preparing: select * from user where id=?
+2022-02-13 14:31:21,873 239    [           main] DEBUG ong.dao.UserMapper.getUserById  - ==> Parameters: 1(Integer)
+2022-02-13 14:31:21,880 246    [           main] DEBUG ong.dao.UserMapper.getUserById  - <==      Total: 0
+2022-02-13 14:31:21,880 246    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6385cb26]
+2022-02-13 14:31:21,880 246    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1669712678 to pool.
+2022-02-13 14:31:21,881 247    [           main] DEBUG        com.dong.dao.UserMapper  - Cache Hit Ratio [com.dong.dao.UserMapper]: 0.5
+2022-02-13 14:33:16,728 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2022-02-13 14:33:16,734 6      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-13 14:33:16,734 6      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-13 14:33:16,734 6      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-13 14:33:16,735 7      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-13 14:33:16,795 67     [           main] DEBUG        com.dong.dao.UserMapper  - Cache Hit Ratio [com.dong.dao.UserMapper]: 0.0
+2022-02-13 14:33:16,798 70     [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2022-02-13 14:33:16,940 212    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1669712678.
+2022-02-13 14:33:16,943 215    [           main] DEBUG ong.dao.UserMapper.getUserById  - ==>  Preparing: select * from user where id=?
+2022-02-13 14:33:16,962 234    [           main] DEBUG ong.dao.UserMapper.getUserById  - ==> Parameters: 2(Integer)
+2022-02-13 14:33:16,971 243    [           main] DEBUG ong.dao.UserMapper.getUserById  - <==      Total: 1
+2022-02-13 14:33:16,971 243    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6385cb26]
+2022-02-13 14:33:16,971 243    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1669712678 to pool.
+2022-02-13 14:33:16,972 244    [           main] DEBUG        com.dong.dao.UserMapper  - Cache Hit Ratio [com.dong.dao.UserMapper]: 0.5
+2022-02-13 14:37:03,612 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2022-02-13 14:37:03,618 6      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-13 14:37:03,618 6      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-13 14:37:03,618 6      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-13 14:37:03,618 6      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-13 14:37:03,680 68     [           main] DEBUG        com.dong.dao.UserMapper  - Cache Hit Ratio [com.dong.dao.UserMapper]: 0.0
+2022-02-13 14:37:03,683 71     [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2022-02-13 14:37:03,825 213    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 341853399.
+2022-02-13 14:37:03,827 215    [           main] DEBUG ong.dao.UserMapper.getUserById  - ==>  Preparing: select * from user where id=?
+2022-02-13 14:37:03,845 233    [           main] DEBUG ong.dao.UserMapper.getUserById  - ==> Parameters: 2(Integer)
+2022-02-13 14:37:03,853 241    [           main] DEBUG ong.dao.UserMapper.getUserById  - <==      Total: 1
+2022-02-13 14:37:03,859 247    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@146044d7]
+2022-02-13 14:37:03,859 247    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 341853399 to pool.
+2022-02-13 14:37:42,358 1      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2022-02-13 14:37:42,363 6      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-13 14:37:42,363 6      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-13 14:37:42,363 6      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-13 14:37:42,364 7      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-13 14:37:42,423 66     [           main] DEBUG        com.dong.dao.UserMapper  - Cache Hit Ratio [com.dong.dao.UserMapper]: 0.0
+2022-02-13 14:37:42,426 69     [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2022-02-13 14:37:42,567 210    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 341853399.
+2022-02-13 14:37:42,570 213    [           main] DEBUG ong.dao.UserMapper.getUserById  - ==>  Preparing: select * from user where id=?
+2022-02-13 14:37:42,588 231    [           main] DEBUG ong.dao.UserMapper.getUserById  - ==> Parameters: 2(Integer)
+2022-02-13 14:37:42,596 239    [           main] DEBUG ong.dao.UserMapper.getUserById  - <==      Total: 1
+2022-02-13 14:37:42,599 242    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@146044d7]
+2022-02-13 14:37:42,599 242    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 341853399 to pool.
+2022-02-13 14:37:42,600 243    [           main] WARN  .ibatis.io.SerialFilterChecker  - As you are using functionality that deserializes object streams, it is recommended to define the JEP-290 serial filter. Please refer to https://docs.oracle.com/pls/topic/lookup?ctx=javase15&id=GUID-8296D8E8-2B93-4B9A-856E-0A65AF9B8C66
+2022-02-13 14:37:42,601 244    [           main] DEBUG        com.dong.dao.UserMapper  - Cache Hit Ratio [com.dong.dao.UserMapper]: 0.5
+2022-02-14 08:07:50,891 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2022-02-14 08:07:50,897 6      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-14 08:07:50,898 7      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-14 08:07:50,898 7      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-14 08:07:50,898 7      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-14 08:07:50,965 74     [           main] DEBUG        com.dong.dao.UserMapper  - Cache Hit Ratio [com.dong.dao.UserMapper]: 0.0
+2022-02-14 08:07:50,969 78     [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2022-02-14 08:07:51,130 239    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 341853399.
+2022-02-14 08:07:51,132 241    [           main] DEBUG ong.dao.UserMapper.getUserById  - ==>  Preparing: select * from user where id=?
+2022-02-14 08:07:51,151 260    [           main] DEBUG ong.dao.UserMapper.getUserById  - ==> Parameters: 2(Integer)
+2022-02-14 08:07:51,159 268    [           main] DEBUG ong.dao.UserMapper.getUserById  - <==      Total: 1
+2022-02-14 08:07:51,163 272    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@146044d7]
+2022-02-14 08:07:51,163 272    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 341853399 to pool.
+2022-02-14 08:07:51,163 272    [           main] WARN  .ibatis.io.SerialFilterChecker  - As you are using functionality that deserializes object streams, it is recommended to define the JEP-290 serial filter. Please refer to https://docs.oracle.com/pls/topic/lookup?ctx=javase15&id=GUID-8296D8E8-2B93-4B9A-856E-0A65AF9B8C66
+2022-02-14 08:07:51,165 274    [           main] DEBUG        com.dong.dao.UserMapper  - Cache Hit Ratio [com.dong.dao.UserMapper]: 0.5
+2022-02-23 12:58:03,378 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2022-02-23 12:58:03,384 6      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-23 12:58:03,384 6      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-23 12:58:03,384 6      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-23 12:58:03,384 6      [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2022-02-23 12:58:03,446 68     [           main] DEBUG        com.dong.dao.UserMapper  - Cache Hit Ratio [com.dong.dao.UserMapper]: 0.0
+2022-02-23 12:58:03,449 71     [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2022-02-23 12:58:03,596 218    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 341853399.
+2022-02-23 12:58:03,598 220    [           main] DEBUG ong.dao.UserMapper.getUserById  - ==>  Preparing: select * from user where id=?
+2022-02-23 12:58:03,617 239    [           main] DEBUG ong.dao.UserMapper.getUserById  - ==> Parameters: 2(Integer)
+2022-02-23 12:58:03,626 248    [           main] DEBUG ong.dao.UserMapper.getUserById  - <==      Total: 1
+2022-02-23 12:58:03,629 251    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@146044d7]
+2022-02-23 12:58:03,630 252    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 341853399 to pool.
+2022-02-23 12:58:03,630 252    [           main] WARN  .ibatis.io.SerialFilterChecker  - As you are using functionality that deserializes object streams, it is recommended to define the JEP-290 serial filter. Please refer to https://docs.oracle.com/pls/topic/lookup?ctx=javase15&id=GUID-8296D8E8-2B93-4B9A-856E-0A65AF9B8C66
+2022-02-23 12:58:03,632 254    [           main] DEBUG        com.dong.dao.UserMapper  - Cache Hit Ratio [com.dong.dao.UserMapper]: 0.5
